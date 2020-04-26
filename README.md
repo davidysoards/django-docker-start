@@ -28,3 +28,12 @@ DATABASES = {
 ```
 docker-compose up
 ```
+
+Add to .vscode/settings.json
+
+```
+  "files.associations": {
+    "*.html": "django-html",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+  },
+```
